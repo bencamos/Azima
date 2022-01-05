@@ -1,0 +1,183 @@
+{
+    "//": "I am conflicted between using a database and config file.",
+    "//": "For now we will use a config file but it will have to be reloaded in each thread whenever updated are made",
+    "//": "The use of database is likely here, but a built-in db has yet to be created.",
+    
+    "debug": {
+        "enabled": true,
+        "data": {
+            "//": "Omitted Messages",
+            "//": "You can add and mark specific debug messages here.",
+            "//": "Any debug messages with this msg will be ignored.",
+            "//": "Do not use. Still in DEV",
+            "Terminating!": false,
+            "Starting!": false,
+            "addUsedIds": false
+        }
+    },
+    "tor": {
+        "enabled": true,
+        "data": {
+            
+        }
+    },
+    "worker": {
+        "enabled": true,
+        "data": {
+            
+        },
+
+        "interface": {
+            "enabled": true,
+            "data": {
+            
+            },
+
+            "master": {
+                "enabled": true,
+                "data": {
+            
+                }
+            },
+
+            "cnsl": {
+                "enabled": true,
+                "data": {
+            
+                }
+            },
+
+            "text": {
+                "enabled": true,
+                "data": {
+            
+                }
+            },
+
+            "voice": {
+                "enabled": true,
+                "data": {
+            
+                }
+            }
+        },
+
+        "application": {
+            "enabled": true,
+            "data": {
+            
+            },
+
+            "master": {
+                "enabled": true,
+                "data": {
+            
+                }
+            },
+
+            "chronos": {
+                "enabled": true,
+                "data": {
+                    "//": "This is where all scheduled tasks are stored.",
+                    "placeHolder": {
+                        "who": "",
+                        "cmd": "",
+                        "when": ""
+                    }
+                }
+            },
+
+            "network": {
+                "enabled": true,
+                "data": {
+            
+                },
+
+                "master": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                },
+
+                "monitor": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                },
+
+                "defence": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                },
+
+                "autopredict": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                }
+            },
+
+            "admin": {
+                "enabled": true,
+                "data": {
+
+                },
+
+                "master": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                },
+
+                "info": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                },
+
+                "web": {
+                    "enabled": true,
+                    "data": {
+                        
+                    }
+                },
+
+                "comms": {
+                    "enabled": true,
+                    "data": {
+                        
+                    }
+                }
+            },
+
+            "extcom": {
+                "enabled": true,
+                "data": {
+            
+                },
+                
+                "master": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                },
+
+                "mobile": {
+                    "enabled": true,
+                    "data": {
+
+                    }
+                }
+            }
+
+        }
+    }
+}
