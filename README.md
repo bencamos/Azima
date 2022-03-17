@@ -1,5 +1,4 @@
 # Azima
-## What B*** Couldn't Do
 
 Azima is a framework designed to automatically and hopefully autonomously.
 Designed to run any amount of programs including but not limited to, security automation, threat evaluation and blocking as well as all the developmental tools you may need when programming for it.
